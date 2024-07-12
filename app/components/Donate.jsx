@@ -104,8 +104,8 @@ function Donate() {
 
 
     return (
-        <div className="bg-blue-900 lg:p-32" id='donate'>
-            <div className="container mx-auto bg-white p-8 rounded-lg overflow-hidden">
+        <div className="bg-blue-900 lg:p-32 donate-main-bg" id='donate'>
+            <div className="container mx-auto bg-white p-8 rounded-lg overflow-hidden donate-bg shadow-xl">
                 <div className="grid lg:grid-cols-2 gap-8 ">
                     {/* Donation Form Section */}
                     <div className="lg:order-2 flex flex-col justify-center " data-aos="fade-up" data-aos-duration="2000">
@@ -115,7 +115,7 @@ function Donate() {
                                 <button
                                     key={value}
                                     onClick={() => handleAmountClick(value)}
-                                    className="border border-blue-900 px-4 font-bold py-2 rounded hover:bg-blue-900 hover:text-white"
+                                    className="border bg-white border-blue-900 px-4 font-bold py-2 rounded hover:bg-blue-900 hover:text-white"
                                 >
                                     GHS {value}
                                 </button>

@@ -28,3 +28,21 @@
     left: 0;
   }
   
+
+  .donate-bg {
+    background-image: url("https://c8.alamy.com/comp/T51NA9/abstract-blue-wave-background-eps-10-T51NA9.jpg");
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/377/14/348/constitution-day-russia-patriotism-flag-wallpaper-preview.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .donate-main-bg {
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/377/14/348/constitution-day-russia-patriotism-flag-wallpaper-preview.jpg"); */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/895/243/769/shapes-blue-red-digital-art-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }

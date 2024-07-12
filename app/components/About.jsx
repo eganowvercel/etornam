@@ -5,7 +5,7 @@ function About() {
     return (
         <div className="bg-gray-100 md:py-48 py-20" id='about' data-aos="fade-up">
             <div className="container mx-auto flex flex-col lg:flex-row items-center">
-                <div className="lg:w-1/3 w-full flex justify-center mb-8 lg:mb-0 overflow-hidden" data-aos="fade-up" data-aos-duration="2000">
+                <div className="lg:w-1/3 w-full flex justify-center mb-8 lg:mb-0 overflow-hidden" data-aos="fade-right" data-aos-duration="2000">
                     <Image
                         width={10000}
                         height={100}

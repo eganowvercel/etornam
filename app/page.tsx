@@ -15,7 +15,7 @@ function page() {
 
 
   return (
-    <div>
+    <div >
       <Navbar/>
       <Hero/>
       <About/>

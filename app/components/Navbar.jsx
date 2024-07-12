@@ -60,10 +60,10 @@ function Navbar() {
 
             <div className={`${isOpen ? 'block opacity-100 transition-opacity ' : 'hidden'} md:hidden fixed top-23 opacity-0   right-0 bg-white/50 backdrop-blur-2xl  z-50 w-[50%] h-[100vh]`} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-blue-900">
-                    <a href="#home" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                    <a href="#about" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">About</a>
-                    <a href="#donate" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Donate</a>
-                    <a href="#campaign" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Campaign</a>
+                    <a href="#home" className="hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                    <a href="#about" className="hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                    <a href="#donate" className="hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Donate</a>
+                    <a href="#campaign" className="hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Campaign</a>
                 </div>
             </div>
         </nav>
