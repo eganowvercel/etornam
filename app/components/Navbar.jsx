@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,6 +8,9 @@ function Navbar() {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+
+
+
 
     return (
         <nav className="bg-red-600 text-white sticky top-0 z-50">
