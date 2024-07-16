@@ -8,10 +8,8 @@ import About from './components/About';
 import Campaign from './components/Campaign';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Toaster, toast } from 'sonner';
 
 function Page() {
-  
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -21,10 +19,7 @@ function Page() {
 
   return (
     <div>
-      <Toaster richColors position="top-left" />
-      <Suspense fallback={<div>Loading...</div>}>
-        <Navbar />
-      </Suspense>
+      <Navbar />
       <Hero />
       <About />
       <Donate />
