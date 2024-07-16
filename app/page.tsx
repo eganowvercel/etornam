@@ -1,5 +1,5 @@
 'use client';
-import React, { Suspense, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Donate from './components/Donate';
